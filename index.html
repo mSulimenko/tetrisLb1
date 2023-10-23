@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EnterName</title>
+</head>
+<body>
+<form action="src/main.html" method="get" onsubmit="store(this.username)">
+  <label>
+    Введите имя:<br>
+    <input type="text" name="username" placeholder="Имя пользователя" onblur="store(this)"><br>
+  </label>
+  <input type="submit" value="Ввод">
+</form>
+<script src="src/startPage.js"></script>
+</body>
+</html>

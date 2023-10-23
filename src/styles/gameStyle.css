@@ -1,0 +1,117 @@
+body{
+    background: #ccc4c4;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+#root{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+#main-canvas{
+    background: white;
+    margin-left: 10px;
+    margin-top: 30px;
+    border: 2px solid black;
+    position: absolute;
+    left: 750px;
+    top: 0px;
+}
+
+#info{
+    position: relative;
+    left: 75px;
+    top: 55px;
+    margin: 15px;
+}
+
+#score{
+    font-size: 30px;
+}
+
+#usernamePlaceholder{
+    font-size: 50px;
+}
+
+#level{
+    font-size: 30px;
+}
+#nextTetrominoName{
+    font-size: 25px;
+}
+.leader-container{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    left: 500px;
+    top: 50px;
+    width: 800px;
+    height: 600px;
+    background-color: wheat;
+    border: black 4px;
+}
+#leader{
+    position: relative;
+    z-index: 1;
+}
+
+#nextTetromino{
+    font-size: 30px;
+    height: 150px;
+    width: 200px;
+    background: rgb(128, 128, 128);
+    border: 2px solid black;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(3, auto);
+}
+
+#manual{
+    /*margin:5px;*/
+    font-size: 30px;
+}
+
+.grid>div.I{
+    background-color: aqua;
+    border: 1px solid black;
+}
+.grid>div.L{
+    background-color: orange;
+    border: 1px solid black;
+
+}
+.grid>div.J{
+    background-color: red;
+    border: 1px solid black;
+
+}
+.grid>div.O{
+    background-color: yellow;
+    border: 1px solid black;
+
+}
+.grid>div.S{
+    background-color: green;
+    border: 1px solid black;
+
+}
+.grid>div.Z{
+    background-color: blue;
+    border: 1px solid black;
+
+}
+.grid>div.T{
+    background-color: pink;
+    border: 1px solid black;
+
+}
+

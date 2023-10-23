@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tetris</title>
+    <link rel="stylesheet" href="styles/gameStyle.css">
+</head>
+<body>
+    <div id="root">
+        <div class="leader-container">
+            <div id="leader">
+            </div>
+        </div>
+        <div id="info">
+            <p id="usernamePlaceholder"></p>
+            <div id="score">Счет:0</div>
+            <div id="level">Уровень:1</div>
+            <p id="nextTetrominoName">Следующая фигура:</p>
+            <div class="grid" id="nextTetromino">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+
+            </div>
+            <p id="manual">Клавиши для управления:<br> Стрелка влево - перемещение фигуры влево<br>
+                Стрелка вправо - перемещение фигуры вправо<br> Стрелка вниз - уронить фигуру
+            <br> Стрелка вверх - повернуть фигуру</p>
+
+
+        </div>
+
+        <canvas id="main-canvas"></canvas>
+
+    </div>
+    <script src="main.js" type="module"> </script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(128, 128, 128);
+}
+
+#btn{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    background-color: blue;
+}
+
+#elem{
+    position: absolute;
+    left: 0;
+    top: 10px;
+    color: aqua;
+}
