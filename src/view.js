@@ -33,18 +33,6 @@ export class View{
         this.level.textContent = `Уровень:${cur_level}`;
     }
 
-    // drawNextTetromino(tetris){
-    //     const {y, x, name, matrix} = tetris.nextTetromino;
-    //     const size = matrix.length;
-    //     for(let i = 0; i < size; i++){
-    //         for(let j = 0; j < size; j++ ){
-    //             if(!matrix[i][j]) continue;
-    //             if(y + i < 0) continue;
-    //             this.cells[4*i+j].classList.add(NAMES_MATCHING[name]);  //6
-    //         }
-    //     }
-    // }
-
     drawNextTetromino(tetris){
         const {name, size} = tetris.nextTetromino;
         for(let i = 0; i < size; i++){
